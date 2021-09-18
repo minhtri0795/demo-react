@@ -45,7 +45,7 @@ function MarketPlace({ getHeroID }) {
   };
   useEffect(() => {
     const fecthHeroData = async () => {
-      const url = `http://apifairyway.melysoft.com/NftHeros`;
+      const url = `http:...com/NftHeros`;
       const response = await fetch(url);
       const data = await response.json();
       setHeroData(data);
