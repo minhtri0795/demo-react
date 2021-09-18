@@ -20,7 +20,7 @@ function HeroDetail({ heroId }) {
   const [heroType, setType] = useState({});
   useEffect(() => {
     const fecthHeroData = async () => {
-      const url = `http://apifairyway.melysoft.com/NftHeros?id=${heroId}`;
+      const url = `http://...?id=${heroId}`;
       const response = await fetch(url);
       const data = await response.json();
       setHeroDetail(data[0]);
